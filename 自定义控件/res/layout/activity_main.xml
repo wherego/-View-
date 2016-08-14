@@ -1,0 +1,26 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:custom="http://schemas.android.com/apk/res/com.example.test"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="${relativePackage}.${activityClass}" >
+    
+    
+    <com.example.test.TopBar
+        android:id="@+id/topbar"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        custom:tittle="OKOKOK"
+        custom:tittleTextSize="10sp"
+        custom:tittleTextColor="#FFFFFF"
+        
+        custom:leftTextColor="#FFFFFF"
+        custom:leftBackground="@android:color/holo_purple"
+        custom:leftText="LEFT"
+        
+        custom:rightTextColor="#FFFFFF"
+        custom:rightBackground="@android:color/darker_gray"
+        custom:rightText="right"
+        ></com.example.test.TopBar>
+
+</RelativeLayout>
